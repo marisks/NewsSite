@@ -293,7 +293,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Data\GeoLiteCity.dat" />
-    <None Include="EPiServerLog.config" />
+    <Content Include="EPiServerLog.config" />
     <Content Include="packages.config" />
     <Content Include="modules\_protected\Shell\web.config" />
     <Content Include="modules\_protected\Shell\EPiServer.Shell.UI.zip" />
@@ -301,11 +301,12 @@
     <Content Include="modules\_protected\CMS\EPiServer.Cms.Shell.UI.zip" />
     <Content Include="modules\_protected\EPiServer.Packaging.UI\web.config" />
     <Content Include="modules\_protected\EPiServer.Packaging.UI\EPiServer.Packaging.UI.zip" />
+    <Content Include="License.config" />
     <None Include="Properties\PublishProfiles\epinewssite.pubxml" />
-    <None Include="Views\ArticlePage\Index.cshtml" />
+    <Content Include="Views\ArticlePage\Index.cshtml" />
     <Content Include="Views\Shared\_layout.cshtml" />
     <Content Include="Views\Shared\ImageFile.cshtml" />
-    <None Include="Views\StartPage\Index.cshtml" />
+    <Content Include="Views\StartPage\Index.cshtml" />
     <Content Include="Views\_viewstart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
