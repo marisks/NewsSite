@@ -1,0 +1,12 @@
+﻿@model StartPageView
+
+<h1>@Model.CurrentPage.Name</h1>
+
+<ul>
+    @foreach (var article in Model.Articles)
+    {
+        <li>
+            <a href="@Url.ContentUrl(article.ContentLink)">@article.Name</a>
+        </li>
+    }
+</ul>

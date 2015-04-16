@@ -1,0 +1,10 @@
+﻿@model ArticlePage
+
+<article>
+    <p class="lead">
+        @Html.PropertyFor(x => x.Intro)
+        @Html.PropertyFor(x => x.Image)
+    </p>
+
+    @Html.PropertyFor(x => x.Content)
+</article>
