@@ -5,8 +5,10 @@
     <title>News Site</title>
 </head>
 <body>
-<div>
-      @RenderBody()
-</div>
+    @Html.RenderEPiServerQuickNavigator()
+    @Html.FullRefreshPropertiesMetaData()
+    <div>
+          @RenderBody()
+    </div>
 </body>
 </html>
