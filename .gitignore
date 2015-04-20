@@ -121,3 +121,7 @@ NewsSite/Properties/PublishProfiles/
 
 # VS image cache
 imagecache/
+
+# Azure Configuration
+*.cscfg
+
